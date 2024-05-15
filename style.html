@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site - Minha Cor Favorita</title>
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 36px;
+        }
+        
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .main-content {
+            text-align: center;
+        }
+        
+        .about {
+            margin-top: 50px;
+        }
+        
+        .about h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        
+        .about p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        
+        select {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site - Minha Cor Favorita</h1>
+    </header>
+    <div class="container">
+        <div class="main-content">
+            <h2>Bem-vindo ao meu site sobre sua cor favorita!</h2>
+
+            <p>Escolha sua cor favorita:</p>
+
+           
+
+            <form  method="post" action="script.php">
+                 <label for="favcolor">Escolha sua cor favorita:</label>
+                <select name="favcolor" id="favcolor">
+                    <option value="">Selecione a cor</option>
+                    <option value="vermelho">Vermelho</option>
+                    <option value="verde">Verde</option>
+                    <option value="azul">Azul</option>
+                 
+        
+                
+
+                </select>
+                <br><br>
+                <input type="submit" value="Escolher">
+            </form>
+        </div>
+        <div class="about">
+            <h2>Sobre Minha Cor Favorita</h2>
+            <p>A cor favorita pode variar de pessoa para pessoa, mas para mim, a melhor cor é o azul. É uma cor que transmite tranquilidade, confiança e harmonia.</p>
+            
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Meu Site - Sua Cor Favorita</p>
+    </footer>
+</body>
+</html>
